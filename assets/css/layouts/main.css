@@ -1,0 +1,295 @@
+/* ========= Colors ============
+Heading:     #1C2D41
+Paragraph:   #3C4858
+Iconography: #8392A5
+Secondary:   #C0CCDA
+Dirty Snow:  #E5E9F2
+Snow:        #F9FAFC
+
+Magenta: #7551E9
+Orange:  #FF7D51
+Pink:    #ED63D2
+Green:   #2DCA73
+Yellow:  #FFC212
+*/
+
+body {
+  background-color: #e1ecf4;
+  font-family: "Muli";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4a3320;
+}
+
+strong {
+  color: #411c28 !important;
+}
+
+p {
+  color: #42352d;
+}
+
+a {
+  color: #696a93;
+}
+
+a:hover {
+  color: #5b5c7d;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #ad86a2;
+}
+
+.btn-dark {
+  margin-top: -1.7rem;
+  background-color: #7024aa;
+  border-color: #8540b9;
+  color: #f5f2f0;
+  transition: all 0.3s ease-out;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: #3b125a;
+  border-color: #aa249d;
+  transition: all 0.3s ease-out;
+}
+
+.btn-outline-info {
+  color: #d613d6 !important;
+  border-color: #d6135b !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #d941ae !important;
+  color: #f2ede5 !important;
+}
+
+.btn-info {
+  background-color: #a61e1e !important;
+  color: #f2ede5 !important;
+}
+
+.btn-info:hover {
+  background-color: #d12020 !important;
+  color: #f2ede5 !important;
+}
+
+.bg-white {
+  background-color: #fcfbf9 !important;
+}
+
+.bg-dimmed {
+  background-color: #edf2f6;
+}
+
+.anchor {
+  padding-top: 3.5rem;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.left {
+  display: block;
+  margin-right: auto;
+}
+
+img.right {
+  display: block;
+  margin-left: auto;
+}
+
+.card {
+  box-shadow: none;
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+}
+
+.card-img-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.card-img-xs {
+  width: 24px;
+  height: 24px;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0px 8px 56px rgba(100, 80, 15, 0.16);
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.card .card-head {
+  height: 172px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: all 0.3s ease-out !important;
+}
+
+.card:hover .card-head .card-img-top,
+.card:focus .card-head .card-img-top {
+  transition: all 0.3s ease-out;
+  transform: scale(1.2);
+}
+
+.card-body {
+  text-align: justify;
+}
+
+.sub-title {
+  color: #c0ccda;
+  font-size: 10pt;
+}
+
+/* --- FOOTER START --- */
+
+.footer {
+  color: #ad86a2 !important;
+  background-color: #242222;
+  position: relative;
+  z-index: 9999;
+}
+
+.footer h5 {
+  color: #ad86a2;
+}
+.footer a {
+  color: #ad86a2;
+  transition: all 0.3s ease-out;
+}
+
+.footer a:hover {
+  margin-left: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  margin-top: 5px;
+}
+
+.footer hr {
+  background-color: #ad86a2;
+}
+
+.footer p:first-child {
+  color: #ad86a2;
+}
+
+.footer input {
+  background-color: #ad86a2;
+}
+
+.footer input:focus {
+  background-color: #ad86a2;
+}
+
+.footer #theme {
+  color: #ad86a2
+}
+
+.footer #theme img {
+  width: 32px;
+}
+
+.footer #hugo:hover {
+  margin-right: 5px;
+  transition: all 0.3s ease-out;
+}
+
+/* --- FOOTER END ---- */
+
+/* ============= Device specific fixes ======= */
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+  .content-section .languageSelector {
+    position: fixed;
+    right: 0.5rem;
+    bottom: 1rem;
+    z-index: 10000000;
+    background-color: #fcfbf9;
+    box-shadow: 0px 8px 56px rgba(100, 80, 15, 0.16);
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+  .skills-section .container,
+  .projects-section .container {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .section-holder {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .skills-section,
+  .projects-section,
+  .recent-posts-section,
+  .achievements-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}

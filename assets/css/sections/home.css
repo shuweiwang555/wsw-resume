@@ -47,13 +47,14 @@
 
 .home .greeting {
   color: #fcfbf9;
-  font-size: 6.5rem;
+  font-size: 8rem;
   animation: color-change 20s infinite;
+  font-family: "Lucida Handwriting", cursive;
 }
 
 @keyframes color-change {
   0% {
-    color: rgb(225, 195, 26);
+    color: rgb(255, 255, 255);
   }
 
   25% {
@@ -61,7 +62,7 @@
   }
 
   50% {
-    color: rgb(218, 152, 29);
+    color: rgb(230, 204, 154);
   }
 
   100% {

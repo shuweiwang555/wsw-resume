@@ -1,13 +1,15 @@
 .social-link {
   list-style: none;
   padding: 0.2rem;
+  
 }
 
 .social-link a {
   font-size: 3rem;
-  color: #7b6278;
+  color: #363a57;
   padding: 0.5rem;
   justify-content: center;
+  
 }
 
 .social-link a:hover {
@@ -15,6 +17,9 @@
   font-size: 3rem;
   color: #a98fad;
   transition: all 0.3s ease-in;
+  /* background-color: #e91ed5;
+  color: #fff; */
+  /* box-shadow: 0 0 5px #8a07fc */
 }
 
 .circular-progress {
@@ -541,28 +546,31 @@
 /* iPhone 5 or before */
 @media only screen and (max-width: 320px) {}
 
-#photo1 {
+#photo-shandong {
   margin: 1.5rem;
   background-image: url('../../images/Shandong_University-removebg-preview.png');
   /* background-position: 0px 0px; */
   background-repeat: no-repeat;
   background-size: contain;
   padding: 5rem;
-  height: 10rem;
+  height: 9rem;
   /* width: 100%; */
   /* width: 70%; */
   /* opacity: 0.8; */
   left: 0;
   top: 0;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; 
 }
 
-#photo2 {
+#photo-usc {
   margin: 1.5rem;
-  background-image: url('../../images/University-of-Southern-California-logo.png');
+  background-image: url('../../images/viterbi.png');
   /* background-position: 0px 0px; */
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 5rem 8rem;
+  padding: 5rem;
   height: 10rem;
   /* width: 100%; */
   /* width: 60%; */
@@ -570,12 +578,52 @@
   left: 0;
   top: 0;
   padding-bottom: 0px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; 
+}
 
+#photo-stanford {
+  margin: 1.5rem;
+  background-image: url('../../images/Stanford-University-Logo.png');
+  /* background-position: 0px 0px; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 5rem;
+  height: 10rem;
+  /* width: 100%; */
+  /* width: 60%; */
+  /* opacity: 0.8; */
+  left: 0;
+  top: 0;
+  padding-bottom: 0px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; 
+}
+
+.gradient-hover-effect {
+  display: flex;
+  padding: 1.5rem 3.5rem;
+  background: linear-gradient(90deg, #e91e1e, transparent) #f3e221;
+  font-family: inherit;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s;
+  place-content: center;
+  border-radius: 1.4rem;
+}
+.gradient-hover-effect:hover,
+.gradient-hover-effect:focus {
+  background-color: #e91e58;
+  color: #fff;
+  box-shadow: 0 0 5px #fc0707
 }
 
 .main-wrapper {
+  /* margin-top: 7rem; */
   width: 90%;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: 3em auto;
   text-align: center;
 }
@@ -586,6 +634,10 @@
   width: 6em;
   height: 9.3em; */
 
+}
+
+.center-container {
+  text-align: center; /* Center the content horizontally */
 }
 
 .badge {

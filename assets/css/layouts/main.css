@@ -51,17 +51,28 @@ a:hover {
 
 .btn-dark {
   margin-top: -1.7rem;
-  background-color: #7024aa;
-  border-color: #8540b9;
-  color: #f5f2f0;
-  transition: all 0.3s ease-out;
+  /* background-color: #7024aa; */
+  /* border-color: #8540b9;
+  color: #f5f2f0; */
+  /* transition: all 0.3s ease-out; */
+
+  /* display: flex;
+  padding: 1.5rem 3.5rem; */
+  background: linear-gradient(90deg, #363a57, transparent) #bc576d;
+  font-family: inherit;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s;
+  place-content: center;
+  border:0;
+  /* border-radius: 1.4rem; */
 }
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #3b125a;
-  border-color: #aa249d;
-  transition: all 0.3s ease-out;
+  background-color: #e91ed5;
+  color: #fff;
+  box-shadow: 0 0 5px #8a07fc
 }
 
 .btn-outline-info {
@@ -173,7 +184,6 @@ img.right {
 .footer h5 {
   color: #ad86a2;
 }
-
 .footer a {
   color: #ad86a2;
   transition: all 0.3s ease-out;
@@ -227,13 +237,16 @@ img.right {
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */
-@media only screen and (min-width: 1824px) {}
+@media only screen and (min-width: 1824px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+}
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+}
 
 /* IPad Pro */
 @media (max-width: 1024px) {
@@ -249,16 +262,17 @@ img.right {
 
 /*  Large devices (desktops, 992px and up) */
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media only screen and (max-width: 576px) {
-
   .skills-section .container,
   .projects-section .container {
     padding-left: 0.3rem;
@@ -280,10 +294,13 @@ img.right {
 }
 
 /* iPhoneX, iPhone 6,7,8 */
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+}
 
 /* Galaxy S5, Moto G4 */
-@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 360px) {
+}
 
 /* iPhone 5 or before */
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+}

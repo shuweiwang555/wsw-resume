@@ -70,9 +70,9 @@ a:hover {
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #e91ed5;
+  background-color: #363a57;
   color: #fff;
-  box-shadow: 0 0 5px #8a07fc
+  box-shadow: 0 0 5px #363a57
 }
 
 .btn-outline-info {

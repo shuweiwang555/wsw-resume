@@ -169,10 +169,15 @@
 }
 
 #p8 {
-  background-image: url('../../images/9.jpg');
+  background-image: url('../../images/ml.jpg');
   /* background-position: 0px 0px; */
 }
-
+#spotify{
+  background-image: url('../../images/spotify.jpg');
+}
+#player{
+  background-image: url('../../images/player.jpg');
+}
 .he {
   height: 4rem
 }
